@@ -1,1 +1,7 @@
-<p>agregarw works!</p>
+<input type="file" (change)="uploadImage($event)">
+
+
+<div class="class">
+
+    <img [src] ="image"  *ngFor="let image of images" width="200">
+</div>
