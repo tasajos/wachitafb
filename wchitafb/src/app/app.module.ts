@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AgregarwComponent } from './Components/agregarw/agregarw.component';
 import { ListadowComponent } from './Components/listadow/listadow.component';
+import { LoginComponent } from './Components/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AgregarwComponent,
-    ListadowComponent
+    ListadowComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
